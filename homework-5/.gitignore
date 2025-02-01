@@ -1,0 +1,16 @@
+# Исключаем папку node_modules
+node_modules/
+
+# Исключаем лог-файлы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Исключаем среду разработки
+.DS_Store
+.vscode/
+.idea/
+
+# Исключаем системные файлы
+Thumbs.db
+*.swp
