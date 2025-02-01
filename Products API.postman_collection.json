@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "d5a3773b-1200-49dd-a685-0c60cd82473f",
+		"name": "Products API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41148440"
+	},
+	"item": [
+		{
+			"name": "{{BASE_URL}}products",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"name\": \"Product 3\", \"price\": \"50\" }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}products",
+					"host": [
+						"{{BASE_URL}}products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{BASE_URL}}products/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}products/1",
+					"host": [
+						"{{BASE_URL}}products"
+					],
+					"path": [
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{BASE_URL}}products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}products",
+					"host": [
+						"{{BASE_URL}}products"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
